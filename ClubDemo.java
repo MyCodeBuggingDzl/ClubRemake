@@ -10,7 +10,7 @@ public class ClubDemo
 {
     // instance variables - replace the example below with your own
     private Club club;
-
+    
     /**
      * Constructor for objects of class ClubDemo
      */
