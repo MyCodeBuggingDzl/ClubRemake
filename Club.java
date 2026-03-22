@@ -10,6 +10,7 @@ public class Club
 {
     // Define any necessary fields here ...
     private ArrayList<Membership> members;
+    private ArrayList<Membership> recruits;
     /**
      * Constructor for objects of class Club
      */
@@ -51,5 +52,9 @@ public class Club
         }
         return count;
     }
+    
+    
+    
+    
 }
 
