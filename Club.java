@@ -36,4 +36,20 @@ public class Club
     {
         return members.size();
     }
+    
+    public int joinedInMonth( int month){
+        int count = 0;
+        for(Membership m: members){
+            if(month < 1 || month > 12){
+                System.out.println("Invalid month");
+                return 0;
+            }
+            
+            if(m.getMonth() == month){
+                count++;
+            }
+        }
+        return count;
+    }
 }
+
